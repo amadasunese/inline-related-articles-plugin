@@ -34,7 +34,7 @@ add_action('wp_enqueue_scripts', function () {
  */
 add_filter('the_content', function ($content) {
 
-    // 1. Basic checks + prevent injection in feeds or REST API previews
+    // Basic checks + prevent injection in feeds or REST API previews
     if (!is_single() || !in_the_loop() || !is_main_query()) {
         return $content;
     }
@@ -44,25 +44,22 @@ add_filter('the_content', function ($content) {
         return $content;
     }
 
-    // 2. Prevent infinite loops
+    // Prevent infinite loops
     static $is_processing = false;
     if ($is_processing) return $content;
     $is_processing = true;
 
     global $post;
     
-    // 3. Clean and parse paragraph positions
+    // Clean and parse paragraph positions
     $raw_positions = explode(',', $settings['paragraphs']);
     $insert_positions = array_filter(array_map('intval', $raw_positions));
 
-    // 4. Split content carefully
+    // Split content carefully
     $paragraphs = explode('</p>', $content);
     
-    // We iterate backwards or use a counter offset to avoid shifting indices 
-    // when we add content. However, modifying the array directly works if 
-    // we use a temporary storage array.
     foreach ($insert_positions as $pos) {
-        // Adjust for 1-based indexing (Users usually think "Paragraph 1" is the first one)
+        // Adjust for 1-based indexing to 0-based array index
         $index = $pos - 1;
 
         if (isset($paragraphs[$index])) {
@@ -77,6 +74,7 @@ add_filter('the_content', function ($content) {
 
     $content = implode('</p>', $paragraphs);
 
-    $is_processing = false; // Reset loop guard
+    // Reset loop guard
+    $is_processing = false;
     return $content;
-}, 20); // Priority 20 ensures we run AFTER standard WP formatting
+}, 20);

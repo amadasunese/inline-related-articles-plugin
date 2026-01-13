@@ -1,13 +1,5 @@
 # Inline Related Articles Pro
 
-Contributors: eseamadasun  
-Tags: related posts, inline articles, news seo, editorial tools, content discovery  
-Requires at least: 5.5  
-Tested up to: 6.5  
-Requires PHP: 5.6  
-Stable tag: 2.0.0  
-License: GPLv2 or later  
-License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
 Insert **inline related articles** inside already published WordPress posts — automatically, intelligently, and without editing old content.
 
@@ -90,7 +82,6 @@ Navigate to:
 
 Settings → Inline Related Articles
 
-
 ### Available Options
 - **Paragraph Numbers:**  
   Comma-separated list (e.g. `3,7,12`)
@@ -102,8 +93,6 @@ Settings → Inline Related Articles
 ---
 
 ## 🧩 Example Output
-
-
 
 [Paragraph 3]
 ────────────────────
