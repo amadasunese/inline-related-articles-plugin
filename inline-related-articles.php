@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin Name: Inline Related Articles Pro
- * Description: Insert multiple inline related articles with AI-powered relevance.
+ * Plugin Name: Inline Related Articles
+ * Description: Inline Related Articles Pro is a lightweight but powerful editorial plugin that automatically injects contextually relevant articles inside the body of your posts.
  * Version: 2.0.2
  * Author: Ese Amadasun
+ * Author URI: https://amadasunese.pythonanywhere.com
  */
 
 if (!defined('ABSPATH')) exit;
