@@ -1,0 +1,32 @@
+.ira-inline-related {
+    border-left: 4px solid #1e73be;
+    background: #f7f9fc;
+    padding: 15px 18px;
+    margin: 30px 0;
+}
+
+.ira-inline-related h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #1e73be;
+}
+
+.ira-inline-related ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ira-inline-related li {
+    margin-bottom: 6px;
+}
+
+.ira-inline-related a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.ira-inline-related a:hover {
+    text-decoration: underline;
+}
