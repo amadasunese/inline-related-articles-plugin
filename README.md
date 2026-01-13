@@ -1,15 +1,14 @@
-# Inline Related Articles Pro
+# Inline Related Articles
 
-
-Insert **inline related articles** inside already published WordPress posts — automatically, intelligently, and without editing old content.
+<!-- Insert **inline related articles** inside already published WordPress posts — automatically, intelligently, and without editing old content. -->
 
 ---
 
 ## 📌 Description
 
-**Inline Related Articles Pro** is a lightweight but powerful editorial plugin that automatically injects **contextually relevant articles** inside the body of your posts.
+**Inline Related Articles** is a lightweight but powerful editorial plugin that automatically injects **contextually relevant articles** inside the body of your posts.
 
-Built for **digital newspapers, blogs, and content-heavy websites**, it helps:
+Built for **news, blogs, and content-heavy websites**, it helps:
 - Increase page views
 - Reduce bounce rate
 - Improve internal linking & SEO
@@ -32,7 +31,7 @@ Unlike traditional “related posts” widgets, this plugin places links **insid
 - Automatically skips short posts
 - Works on **already published content**
 
-### 🧠 AI-Powered Relevance (Offline)
+### AI-Powered Relevance (Offline)
 - Uses content similarity scoring
 - No external API required
 - Privacy-friendly and fast
@@ -43,7 +42,7 @@ Unlike traditional “related posts” widgets, this plugin places links **insid
 - No page builder dependency
 - Compatible with caching plugins
 
-### 🛡 Compatibility
+### Compatibility
 - PHP **5.6+**
 - WordPress **5.5+**
 - Works with classic editor & block editor
@@ -51,7 +50,7 @@ Unlike traditional “related posts” widgets, this plugin places links **insid
 
 ---
 
-## 🖥 How It Works
+## How It Works
 
 1. The plugin splits post content into paragraphs
 2. It injects related articles after selected paragraph numbers
@@ -62,7 +61,7 @@ Unlike traditional “related posts” widgets, this plugin places links **insid
 
 ---
 
-## 🛠 Installation
+## Installation
 
 ### Automatic Installation
 1. Upload the plugin ZIP via **Plugins → Add New**
@@ -76,7 +75,7 @@ Unlike traditional “related posts” widgets, this plugin places links **insid
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Navigate to:
 
@@ -92,17 +91,6 @@ Settings → Inline Related Articles
 
 ---
 
-## 🧩 Example Output
-
-[Paragraph 3]
-────────────────────
-Related Articles
-• Edo Govt Clarifies Ekpoma Unrest
-• AAU Students React to Security Update
-• Police Arrest Suspects in Campus Area
-────────────────────
-[Paragraph 4]
-
 
 ---
 
@@ -113,60 +101,6 @@ Related Articles
 - Boosts crawl depth
 - Reduces bounce rate
 - Ideal for news and evergreen content
-
----
-
-## ❓ Frequently Asked Questions
-
-### Does this modify my post content permanently?
-**No.** The plugin injects content dynamically when the page loads.
-
-### Does it work on old posts?
-Yes — it works on **all published posts automatically**.
-
-### Is AI required?
-No. AI relevance is optional and can be disabled.
-
-### Does it work with caching?
-Yes. Fully compatible with WP Super Cache, W3 Total Cache, and LiteSpeed.
-
-### Can I disable it per post?
-Not yet — planned for a future release.
-
----
-
-## 🔐 Privacy & Security
-
-- No user data is collected
-- No external API calls
-- Fully GDPR-friendly
-
----
-
-## 🧪 Changelog
-
-### 2.0.0
-- Admin settings page
-- Multiple inline blocks per article
-- AI-powered relevance engine
-- PHP 5.6 compatibility
-- Performance improvements
-
-### 1.0.0
-- Initial release
-- Single inline block
-- Category-based relevance
-
----
-
-## 🚀 Roadmap
-
-- Per-post override
-- Sponsored inline blocks
-- Click tracking analytics
-- OpenAI / local LLM embeddings
-- Gutenberg block support
-- AMP compatibility
 
 ---
 
@@ -184,7 +118,6 @@ This plugin is licensed under the **GNU General Public License v2 or later**.
 You are free to:
 - Use
 - Modify
-- Redistribute
 
 Under the terms of the GPL.
 
